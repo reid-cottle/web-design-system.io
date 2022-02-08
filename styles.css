@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    border-radius: 15px;
+    font-family: Poppins;
+}
+
+h1, h2 {
+    margin-left: 10px;
+    font-family: 'Abril Fatface';
+}
+
+h3 {
+    font-family: Poppins;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 26px;
+    font-family: 'Abril Fatface';
+}
+
+p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+ul.colors li {
+    display: inline-block;
+    width: 32%;
+    height: 250px;
+    text-align: center;
+}
+
+ul.colors h3 {
+    margin-top: 100px;
+}
+section {
+    border: thin solid #1E3F54;
+    margin: 30px 15px;
+    padding: 10px;
+}
+
+.carolina-blue {
+    background-color: #4B9CD3;
+}
+
+.sky-blue {
+    background-color: #90BDDB;
+}
+
+.navy-blue {
+    background-color: #1E3F54;
+    color: white;
+}
+
+.button {
+    background-color: #1E3F54;
+    color: white;
+    display: inline-block;
+    width: 125px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #4B9CD3;
+}
+
+.button:active {
+    background-color: white;
+    color: #1E3F54;
+    border: 1px solid black;
+}
+
+.fatface {
+    font-family: 'Abril Fatface';
+    width: 48%;
+    display: inline-block;
+    margin: 10px;
+}
+.fatface h3 {
+    font-family: 'Abril Fatface';
+}
+
+.fatface p {
+    font-family: 'Abril Fatface';
+}
+
+.poppins {
+    font-family: Poppins;
+    width: 48%;
+    display: inline-block;
+    margin: 10px;
+}
+
+#text-styles h1 {
+    text-align: left;
+    margin: 0;
+}
